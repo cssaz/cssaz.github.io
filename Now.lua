@@ -1,1 +1,22 @@
-画画
+[
+  {
+    "id": "Xxibaoziyuan",
+    "name": "X细胞资源",
+    "api": "https://www.xxibaozyw.com/api.php/provide/vod",
+    "nsfw": true,
+    "type": 0,
+    "extra": {
+      "gfw": false
+    }
+  },
+  {
+    "id": "91shipin",
+    "name": "91视频",
+    "api": "https://91av.cyou/api.php/provide/vod/",
+    "nsfw": true,
+    "type": 0,
+    "extra": {
+      "gfw": true
+    }
+  }
+]
