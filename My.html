@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人介绍 - 张三</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            color: #ecf0f1;
+        }
+        
+        .section {
+            background-color: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        
+        .info-item {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .info-item strong {
+            color: #2c3e50;
+            min-width: 80px;
+            display: inline-block;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 1rem;
+        }
+        
+        .skill-tag {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background-color: #3498db;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #3498db;
+        }
+        
+        .timeline-item h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .timeline-item .date {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+        
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 1.5rem;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>张三</h1>
+            <p>全栈开发工程师 | 技术爱好者</p>
+        </header>
+        
+        <section class="section">
+            <h2>基本信息</h2>
+            <div class="info-item">
+                <strong>姓名：</strong>
+                <span>张三</span>
+            </div>
+            <div class="info-item">
+                <strong>年龄：</strong>
+                <span>28岁</span>
+            </div>
+            <div class="info-item">
+                <strong>学历：</strong>
+                <span>本科</span>
+            </div>
+            <div class="info-item">
+                <strong>专业：</strong>
+                <span>计算机科学与技术</span>
+            </div>
+            <div class="info-item">
+                <strong>所在地：</strong>
+                <span>北京</span>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>个人简介</h2>
+            <p>
+                我是一名充满激情的全栈开发工程师，拥有5年的Web开发经验。热爱编程，喜欢探索新技术，
+                致力于构建高质量、用户友好的应用程序。具备良好的团队合作精神和沟通能力，
+                能够在快节奏的环境中高效工作。除了编程，我还喜欢阅读、旅行和摄影。
+            </p>
+        </section>
+        
+        <section class="section">
+            <h2>技能专长</h2>
+            <div class="skills">
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">HTML/CSS</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Vue.js</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Docker</span>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>工作经历</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>高级前端开发工程师</h3>
+                    <p class="date">2021年3月 - 至今</p>
+                    <p>XX科技有限公司</p>
+                    <p>负责公司核心产品的前端开发，带领团队完成多个重要项目，优化产品性能，提升用户体验。</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>前端开发工程师</h3>
+                    <p class="date">2019年6月 - 2021年2月</p>
+                    <p>YY互联网公司</p>
+                    <p>参与电商平台的前端开发，使用Vue.js构建单页应用，实现响应式设计和跨浏览器兼容。</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>初级开发工程师</h3>
+                    <p class="date">2018年7月 - 2019年5月</p>
+                    <p>ZZ软件公司</p>
+                    <p>负责公司官网和内部系统的开发与维护，学习并掌握了完整的Web开发流程。</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>教育背景</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>XX大学</h3>
+                    <p class="date">2014年9月 - 2018年6月</p>
+                    <p>计算机科学与技术 本科</p>
+                    <p>主修课程：数据结构、算法分析、数据库原理、软件工程、计算机网络等</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>联系方式</h2>
+            <div class="contact-info">
+                <a href="mailto:zhangsan@example.com">
+                    📧 zhangsan@example.com
+                </a>
+                <a href="tel:13800138000">
+                    📱 138-0013-8000
+                </a>
+                <a href="https://github.com/zhangsan" target="_blank">
+                    💻 GitHub
+                </a>
+                <a href="https://linkedin.com/in/zhangsan" target="_blank">
+                    💼 LinkedIn
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
