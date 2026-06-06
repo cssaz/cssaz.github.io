@@ -1,0 +1,70 @@
+{
+  "urls": [
+    {
+      "url": "https://collect.wolongzyw.com/api.php/provide/vod/at/json",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "卧龙"
+    },
+    {
+      "url": "https://api.wujinapi.me/api.php/provide/vod/from/wjm3u8/at/json/",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "无尽"
+    },
+    {
+      "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8",
+      "tb": "?ac=videolist&wd=",
+      "wb": "&pg=1",
+      "name": "飞猫"
+    },
+    {
+      "url": "https://okzyapi.com/api.php/provide/vod/",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "最强"
+    },
+    {
+      "url": "https://www.mdzyapi.com/api.php/provide/vod/from/modum3u8/",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "眯瞪"
+    },
+    {
+      "url": "https://360zy.com/api.php/provide/vod/from/360zy/",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "断刀流"
+    },
+    {
+      "url": "https://jyzyapi.com/provide/vod/from/jinyingm3u8",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "周瑜"
+    },
+    {
+      "url": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "量子"
+    },
+    {
+      "url": "https://subocaiji.com/api.php/provide/vod/at/json/",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "无敌"
+    },
+    {
+      "url": "https://www.mdzyapi.com/api.php/provide/vod",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "蓝光"
+    },
+    {
+      "url": "https://api.zuidapi.com/api.php/provide/vod",
+      "tb": "?ac=detail&wd=",
+      "wb": "&pg=1",
+      "name": "鸡哥"
+    }
+  ]
+}
